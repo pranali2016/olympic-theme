@@ -20,7 +20,8 @@ before_deploy:
 
 deploy:
   provider: releases  
-  api_key: 06aa6a2dff248523272be2f635855af6deb2c058
+  api_key: 
+    secure: "VFuUFzNsvWxIMy3A7DmiQopbcbammkJWhUo8o5H0T20qBxyjaL2P5XZeuNTgPjtpRd6/CZF4mWqsxV7IOGEIGl9z2DozqZ7P1ykvYTWX76bL3HFDiUhSCecRtT/VKWXV6/I0cI4YM9z1UQwYkHEeaK4A1FnBFpbaMer9EwgPYs8SnCoHmNi93maiWF0z64bMBkBe9hPqDjeCXx5HJJw5DIjSj4wlndCCZnxCp52sc630jvmTPfpYF/lIJg9TRcYjtpHO0SL1CtYqqoWnf1giuQi/OzShqd6RqhHLM81mVy7cEP9by9zn7Lkll9BV5+Wh6KitAmKorV4b2+0TZxyT7iS3qR7RwgUu3bmgE1V+0gtPGZiW7/f4Pd8hf/+Pp+iyreN75a2X54YT1n+TaqZZKfN0W51QH4eXMSzCKtFyddMiqFgBd2LDn5dcc7g00no9QMU1hTEcdBgpu8FdQSPd0WM3s+4LBvBvSayvT6Q7xLbHf39mM6YSS2G0ns9vkyLn1UYYt8PdLLwJWB9Wxeu5S8zOTqTe7tilDgsL+i6JIH2W8PocEP6eUI+TFNgOUU+okzTw2R3MOxwYWXrttYabtr/CEoyN93cpPUgoLkRBZErbprre7ya2njVzl8TrSNMnHTtgVntV6Xq+XMplJ/D8VlkTd21EW8/cFwT4SQ0b7h4="
   file: '*'  
   skip_cleanup: true
   on:    
