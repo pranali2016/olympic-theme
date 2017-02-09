@@ -22,7 +22,36 @@ deploy:
   provider: releases  
   api_key: 
     secure: "VFuUFzNsvWxIMy3A7DmiQopbcbammkJWhUo8o5H0T20qBxyjaL2P5XZeuNTgPjtpRd6/CZF4mWqsxV7IOGEIGl9z2DozqZ7P1ykvYTWX76bL3HFDiUhSCecRtT/VKWXV6/I0cI4YM9z1UQwYkHEeaK4A1FnBFpbaMer9EwgPYs8SnCoHmNi93maiWF0z64bMBkBe9hPqDjeCXx5HJJw5DIjSj4wlndCCZnxCp52sc630jvmTPfpYF/lIJg9TRcYjtpHO0SL1CtYqqoWnf1giuQi/OzShqd6RqhHLM81mVy7cEP9by9zn7Lkll9BV5+Wh6KitAmKorV4b2+0TZxyT7iS3qR7RwgUu3bmgE1V+0gtPGZiW7/f4Pd8hf/+Pp+iyreN75a2X54YT1n+TaqZZKfN0W51QH4eXMSzCKtFyddMiqFgBd2LDn5dcc7g00no9QMU1hTEcdBgpu8FdQSPd0WM3s+4LBvBvSayvT6Q7xLbHf39mM6YSS2G0ns9vkyLn1UYYt8PdLLwJWB9Wxeu5S8zOTqTe7tilDgsL+i6JIH2W8PocEP6eUI+TFNgOUU+okzTw2R3MOxwYWXrttYabtr/CEoyN93cpPUgoLkRBZErbprre7ya2njVzl8TrSNMnHTtgVntV6Xq+XMplJ/D8VlkTd21EW8/cFwT4SQ0b7h4="
-  file: '*'  
+  file: 
+    -   "404.php"
+    -   "archive.php"
+    -   "comments.php"
+    -   "footer.php"
+    -   "front-page.php"
+    -   "functions.php"
+    -   "header-home.php"
+    -   "header.php"
+    -   "inc/back-compat.php"
+    -   "inc/color-patterns.php"
+    -   "inc/custom-header.php"
+    -   "inc/customizer.php"
+    -   "inc/icon-functions.php"
+    -   "inc/template-functions.php"
+    -   "inc/template-tags.php"
+    -   "index.php"
+    -   "page.php"
+    -   "search.php"
+    -   "searchform.php"
+    -   "sidebar.php"
+    -   "single.php"
+    -   "sportspress/event-details.php"
+    -   "sportspress/event-list.php"
+    -   "sportspress/league-table.php"
+    -   "template-parts/footer/footer-widgets.php"
+    -   "template-parts/footer/site-info.php"
+    -   "template-parts/header/header-image.php"
+    -   "template-parts/header/site-branding.php"
+    -   "template-parts/navigation/navigation-top.php"
   skip_cleanup: true
   on:    
     tags: true
